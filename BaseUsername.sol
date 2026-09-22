@@ -17,3 +17,7 @@ contract BaseUsername {
         return username[user];
     }
 }
+    function getUsername(address user) external view returns (string memory) {
+        return username[user];
+    }
+}
